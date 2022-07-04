@@ -7,7 +7,7 @@
     if ($on== "on"){
         $sor=1;
         //echo $sor;
-        $fileList = shell_exec('/home/pi/Desktop/calefaccion/calderaOn.sh');
+        $fileList = shell_exec('/YourPathHere/boilerOn.sh');
         echo "Caldera prendida";
         
         header("Location: cliente.php?error=0&caldera_encendida=1");

@@ -4,7 +4,7 @@ $usu_usuario=$_POST['usuario'];
 $usu_password=$_POST['password'];
 
 
-$sentencia=$conexion->prepare("SELECT * FROM usuarios WHERE usuario=? AND password=?");
+$sentencia=$conexion->prepare("SELECT * FROM users WHERE usuario=? AND password=?");
 $sentencia->bind_param('ss',$usu_usuario,$usu_password);
 $sentencia->execute();
 

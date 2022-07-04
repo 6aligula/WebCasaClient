@@ -1,7 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$pdo=new PDO("mysql:dbname=whole;host=localhost","pi","raspberry");
-//$pdo=new PDO("mysql:dbname=whole;host=127.0.0.1","root","");
+$pdo=new PDO("mysql:dbname=db;host=localhost","user","password");
 switch($_GET['q']){
 		// Buscar Último Dato
 		case 1:

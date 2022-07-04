@@ -71,18 +71,11 @@ if (unlink('temp.txt')) {
 //funcion para insertar en la tabla tblsensores
 function inserta($llave,  $temp, $humedad)
 {
-    //base de datos para pruebas locales
-    /* $h = 'localhost';
-    $u = 'root';
-    $p = '';
-    $b = 'whole';
-    $ok = 1; */
-
     //base de datos para el server
-     $h = 'localhost';
-    $u = 'pi';
-    $p = 'raspberry';
-    $b = 'whole';
+    $h = 'localhost';
+    $u = 'user';
+    $p = 'password';
+    $b = 'db';
     $ok = 1;
 
     $conn = mysqli_connect($h, $u, $p, $b);

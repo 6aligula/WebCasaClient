@@ -7,7 +7,7 @@ $sor = 0;
 if ($on == "on") {
     $sor = 1;
     //echo $sor;
-    $fileList = shell_exec('/home/pi/Desktop/lab/lamparaOn.sh');
+    $fileList = shell_exec('/YourPathHere/lampOn.sh');
     //echo "Luz prendida";
 
     header("Location: cliente.php?error=0&luz1_encendida=1");

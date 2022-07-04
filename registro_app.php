@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost", "root", "", "pi");
+    $con = mysqli_connect("localhost", "user", "password", "user");
     
     $usuari = $_POST["usuario"];
     $contrasenya = $_POST["contrasenya"];

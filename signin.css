@@ -1,0 +1,217 @@
+body{
+    margin: 0%;
+}
+
+
+
+.titulo{
+    color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-top: 0%;
+    /*border-bottom: solid 50px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 4rem;
+    
+    
+}
+
+.tituloDomotica{
+    color: #2e2e2e;
+    font-family: Arial,Helvetica,sans-serif;
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+.fondoMenu{
+    margin: auto;
+    height: 60px;
+    background-color: #2e2e2e;
+}
+
+.menu{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    height: 60px;
+    padding-top:  15px;
+    
+    
+}
+
+a{
+    padding-right: 10%;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.carro{
+    margin: auto;
+    background-color: red;
+    width: 60%;
+    margin-top: 40px;
+}
+
+
+
+body form{
+    margin: auto;
+}
+
+form{
+   width: 300px;
+   height: 300px;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+.login{
+    margin-top: 20px;
+}
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#error{
+  color: rgba(46, 46, 46, 0.401);
+}
+.bodyIndex{
+  background-image: url("img/domotica.png");
+  background-repeat:no-repeat;
+
+}
+
+.foot {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2e2e2e;
+  color: white;
+  height: 50px;
+}
+
+.redeSociales{
+    width: 200px;
+    text-align: center;
+}
+
+.copyr{
+    display: flex;
+    padding-left: 30%;
+    align-items: center;
+    
+}
+
+/*Para quien es wholeautomation*/
+.paraQuien{
+    
+    margin: auto;
+    padding-top: 60px;
+    background-color: #2e2e2e;
+    height: 300px;
+    text-align: center;
+}
+
+.descripcion{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    height: 300px;
+}
+
+.profesionalidad{
+    /*display: flex;*/
+    padding-left: 10px;
+    width: 33.3%;
+}
+
+.innovacion{
+    /*display: flex;*/
+    padding-left: 10px;
+    width: 33.3%;
+}
+
+.distrutar{
+    /*display: flex;*/
+    padding-left: 10px;
+    width: 33.3%;
+}
+
+.descripcion .profesionalidad{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.descripcion .innovacion{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.descripcion .distrutar{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.titulosDeDescripcion{
+    font-size: 20px;
+}
+
+/*BOTON REGISTRO*/
+.botonRegistro{
+    width: 150px;
+    margin-left: 45%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+

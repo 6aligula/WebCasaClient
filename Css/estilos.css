@@ -1,0 +1,207 @@
+body{
+    margin: 0%;
+}
+body .contenedor{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 55px;
+     /*background-color: red;*/
+     
+}
+
+.ImgPrincipalDomotica{
+    /*margin-left: 55px;*/
+    margin-bottom: 55px;
+   
+}
+
+.contenedor,.descripcionDomotica{
+    margin: auto;
+    
+    
+}
+
+.descripcionDomotica{
+    display: flex;
+    
+    width: 100%;
+    margin-bottom: 55px;
+    border-top: solid 3px;
+    border-bottom:  solid 3px;
+    padding-top: 40px;
+    padding-bottom:  30px;
+    /*margin-left: 55px;*/
+
+
+    
+}
+.quesDomotica1{
+    color: white;
+    width: 33.3%;
+    height: 400px;
+    text-align: justify;
+    padding-right: 30px;
+    margin-top: 0%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.01rem;
+    color: #2e2e2e;
+    
+}
+.quesDomotica2{
+    color: white;
+    width: 33.3%;
+    height: 400px;
+    text-align: justify;
+    padding-right: 30px;
+    margin-top: 0%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    color: #2e2e2e;
+    
+   
+}
+
+.quesDomotica3{
+    text-align: justify;
+    margin-top: 0%;
+    width: 33.3%;
+    height: 400px;
+    
+}
+
+.iot{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    color: #2e2e2e;
+    text-align: justify;
+    width: 660px;
+    margin-left: 55px;
+}
+
+.iotTitulo{
+    font-size: 20px;
+    color: #0180FE;
+}
+
+.masInfo{
+    width: 200px;
+    height: 100px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    color: #2e2e2e;
+    margin-left: 55px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #0180FE;
+    font-weight: bold;
+    border-radius: 100px;
+    color: white;
+    
+}
+.masInfo:hover{
+    background-color: #0174DF;
+    
+}
+
+.home{
+    width: 200px;
+    height: 1000px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    color: #2e2e2e;
+    margin-left: 55px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #0180FE;
+    font-weight: bold;
+    border-radius: 100px;
+    color: white;
+    
+}
+.home:hover{
+    background-color: #0174DF;
+    
+}
+
+
+/*Empieza css COOKIES*/
+
+
+.aviso-cookies {
+    
+	display: none;
+	background: #fff;
+	padding: 20px;
+	width: calc(100% - 40px);
+	max-width: 300px;
+	line-height: 150%;
+	border-radius: 10px;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 100;
+	padding-top: 60px;
+	box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+	text-align: center;
+}
+
+.aviso-cookies.activo {
+	display: block;
+}
+
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo {
+	margin-bottom: 15px;
+}
+
+.aviso-cookies .boton {
+	width: 100%;
+	background: #595959;
+	border: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding: 15px 20px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.aviso-cookies .boton:hover {
+	background: #000;
+}
+
+.aviso-cookies .enlace {
+	color: #4DBFFF;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.aviso-cookies .enlace:hover {
+	text-decoration: underline;
+}
+
+.fondo-aviso-cookies {
+	display: none;
+	background: rgba(0,0,0,.20);
+	position: fixed;
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+}
+
+.fondo-aviso-cookies.activo {
+	display: block;
+}
+
+/*Estilo de error Usuario y contraseña*/
+.oculto{
+    display: none;
+    
+}
